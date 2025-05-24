@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Playpen+Sans+Deva:wght@100..800&display=swap');
+
+nav img {
+    width: 20%;
+    height: 20%;
+}
+
 .text {
     text-align: center;
 }
@@ -53,6 +59,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .logo {
+        text-align: center;
+    }
     .container {
         display: block;
     }
