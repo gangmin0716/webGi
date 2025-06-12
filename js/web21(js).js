@@ -19,8 +19,54 @@
 // let area = width * height
 // console.log(area);
 
-const PI = 3.14;
-let radius = prompt("반지름을 입력하세요");
+// const PI = 3.14;
+// let radius = prompt("반지름을 입력하세요");
 
-let area = PI * radius ** 2
-console.log(area)
+// let area = PI * radius ** 2
+// console.log(area)
+
+// let userNumber = (prompt('숫자를 입력하세요.'));
+
+// if (userNumber != null){
+//     // if (userNumber % 3 === 0)
+//     //     console.log('3의 배수입니다.');
+//     // else
+//     //     console.log('3의 배수가 아닙니다.');
+//     (parseInt(userNumber) % 3 == 0)? console.log('3의 배수입니다.') :console.log('3의 배수가 아닙니다.');
+// }
+// else
+//     console.log('입력이 취소됐습니다.')
+
+/*
+let subject1 = parseInt(prompt('1과목 점수를 입력하세요'));
+let subject2 = parseInt(prompt('2과목 점수를 입력하세요'));
+let subject3 = parseInt(prompt('3과목 점수를 입력하세요'));
+
+let avg = (subject1 + subject2 + subject3)/3;
+if (avg >= 60 && subject1 >= 40 && subject2 >= 40 && subject3 >= 40){
+    console.log('합격');
+}
+else{
+    console.log('불합격');
+}
+*/
+
+
+// let session = prompt('관심 세션을 선택해 주새요. 1-마케팅, 2-개발, 3-디자인');
+
+// switch(session){
+//     case "1": document.writeln("마케팅 세션은 <b>201호</b>에서 진행됩니다.")
+//         break;
+//     case "2": document.writeln("개발 세션은 <b>203호</b>에서 진행됩니다.")
+//         break;
+//     case "3": document.writeln("디자인 세션은 <b>205호</b>에서 진행됩니다.")
+//         break;
+//     default: alert("잘못 입력했습니다.");
+// }
+
+
+for(let i = 1; i<10; i++){
+    for(let ii = 1; ii<10; ii++){
+        console.log(`${i} * ${ii} = ${i * ii}`)
+    }
+}
