@@ -65,8 +65,71 @@ else{
 // }
 
 
-for(let i = 1; i<10; i++){
+/* for(let i = 1; i<10; i++){
     for(let ii = 1; ii<10; ii++){
         console.log(`${i} * ${ii} = ${i * ii}`)
     }
-}
+} */
+
+// let stars = parseInt(prompt('별을 몇 개 표시할까요?'));
+
+/* while (stars > 0){
+    document.writeln("*");
+    stars--;
+} */
+
+// do{
+//     document.writeln("*");
+//     stars--;
+// }while (stars > 0);
+
+
+// let userN = parseInt(prompt('몇 까지 3의 배수를 찾을까요?'))
+// let hap = 0
+// for (let i = 1; i<= userN; i++){
+//     if (i % 3 === 0){
+//         document.writeln(i);
+//         hap ++;
+//     }
+// }
+// document.writeln(`<p class="qotn">${userN}까지 3의 배수의 개수: ${hap}</p>`)
+
+
+
+// function addNumbdr(){
+//     let num1 = 2;
+//     let num2 = 3;
+//     let sum = num1 + num2;
+//     console.log(`결괏값: ${sum}`)
+// }
+
+// addNumbdr();
+// addNumbdr();
+
+// var sum = 0;
+// function addNumber(){
+//     var result;
+//     sum = 10 + 20;
+//     result = 10 * 20;
+// }
+
+// addNumber()
+// console.log(sum);
+// console.log(result)
+
+// var x = 10;
+// function displayNumber(){
+//     console.log(`x is ${x}`);
+//     console.log(`y is ${y}`);
+//     var y = 20;
+// }
+
+// displayNumber();
+
+
+var a = 3;
+var a = 5;
+console.log(a);
+
+let b = 4;
+b = 5;
