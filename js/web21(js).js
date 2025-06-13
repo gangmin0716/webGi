@@ -127,9 +127,34 @@ else{
 // displayNumber();
 
 
-var a = 3;
-var a = 5;
-console.log(a);
+// var a = 3;
+// var a = 5;
+// console.log(a);
 
-let b = 4;
-b = 5;
+// let b = 4;
+// b = 5;
+
+
+// function multiple(a, b = 5, c = 10){
+//     return a * b + c;
+// }
+
+// console.log(multiple(5, 10, 20));
+// console.log(multiple(10, 20));
+// console.log(multiple(30));
+
+
+// let sum = function(a, b){
+//     return a + b;
+// }
+// console.log(`함수 실행 결과: ${sum(10, 20)}`)
+
+
+let sum = (a, b) => a + b;
+console.log(`함수 실행 결과: ${sum(10, 20)}`)
+
+// (function(a, b){
+//     sum = a + b;
+// }(100, 200));
+
+// console.log(`함수 실행 결과: ${sum}`)
