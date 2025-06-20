@@ -21,4 +21,11 @@ const b_top = screenY;
 
 const p_left = b_left + 100;
 const p_top = b_top + 100;
-open('popup.html', '공지', `width=500, height=400, left = ${p_left}, top=${p_top}`)
+
+function win() {
+    let wini = open('popup.html', '공지', `width=500, height=400, left = ${p_left}, top=${p_top}`)
+    if (wini == null){
+        alert("팝업이 차단되었습니다.")
+    }
+}
+
